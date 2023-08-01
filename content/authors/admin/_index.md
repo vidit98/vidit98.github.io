@@ -70,6 +70,6 @@ Hi, I am Vidit Goel currently working as Senior Applied Scientist at Picsart AI 
 I have been fortunate to be guided <a href="https://www.humphreyshi.com/">Prof Humphrey Shi</a> during my time at Picsart. Before joining Picsart I completed my B.Tech and Master degree from IIT Kharagpur where I worked with <a href="https://www.linkedin.com/in/debdoot/?originalSubdomain=in">Prof Debdoot Sheet</a> on medical image generation and segmentation and recieved best thesis award in the department.
 <!-- {style="font-size:  15px;"} -->
 
-Other than work I like hiking, playing badminton, exploring places and trying various cusines. Recently, I have also developed some interest in cooking.
+Other than work I like hiking, playing badminton, exploring places and trying various cusines.
 <!-- {style="font-size:  15px;"} -->
 <!-- {style="text-align: justify;"} -->
