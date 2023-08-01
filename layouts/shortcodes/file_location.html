@@ -1,0 +1,6 @@
+<html>
+    {{ $file := .Get "location" }}
+    {{ with .Page.Resources.GetMatch $file }}
+    {{ .Content | markdownify }}
+    {{ end }}
+</html>
