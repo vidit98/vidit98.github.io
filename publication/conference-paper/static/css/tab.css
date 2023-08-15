@@ -1,0 +1,103 @@
+.group::after, .tabBlock-tabs::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    font-size: 126%;
+  }
+}
+
+.unstyledList, .tabBlock-tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabBlock {
+  margin: 0 0 0.5rem;
+  border-color: #ffffff;
+}
+
+.tabBlock-tab {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 2px;
+  color: #cbcbcb;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 300;
+  float: center;
+  padding: 0.625rem 1.25rem;
+  position: relative;
+  -webkit-transition: 0.1s ease-in-out;
+          transition: 0.1s ease-in-out;
+}
+.tabBlock-tab:last-of-type {
+  border-right-style: solid;
+}
+.tabBlock-tab::before, .tabBlock-tab::after {
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  -webkit-transition: 0.1s ease-in-out;
+          transition: 0.1s ease-in-out;
+}
+.tabBlock-tab::before {
+  background-color: #ffffff;
+  border-color: #000000;
+  left: -2px;
+  right: -2px;
+  top: -2px;
+}
+.tabBlock-tab::after {
+  background-color: transparent;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+}
+@media screen and (min-width: 700px) {
+  .tabBlock-tab {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+.tabBlock-tab.is-active {
+  position: relative;
+  color: #000000;
+  border-color: #000000;
+  font-family:"Google Sans";
+  font-size: 18px;
+  z-index: 0;
+  
+}
+.tabBlock-tab.is-active::before {
+  background-color: #000000;
+}
+.tabBlock-tab.is-active::after {
+  background-color: #fff;
+}
+
+.tabBlock-content {
+  background-color: #fff;
+  border: 0px solid #ffffff;
+  border-top: 1px solid;
+  padding: 0.25rem;
+  color:#fff
+}
+
+
+.tabBlock-pane > :last-child {
+  margin-bottom: 0;
+}
