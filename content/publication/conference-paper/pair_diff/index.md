@@ -44,7 +44,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_project: 'publication/conference-paper/pair_diff.html'
+url_project: 'https://github.com/Picsart-AI-Research/PAIR-Diffusion'
 url_pdf: 'https://arxiv.org/pdf/2303.17546.pdf'
 url_code: 'https://github.com/Picsart-AI-Research/PAIR-Diffusion'
 # url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
