@@ -14,12 +14,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Senior Applied Scientist
+role: Machine Learning Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Picsart AI Research
-    url: https://github.com/Picsart-AI-Research
+  - name: Snap Inc
+    url: https://snap.com/en-GB
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include generative models and segmentation.
